@@ -1,0 +1,12 @@
+<%- include('layouts/header'); -%>
+<tr>
+    <td style="padding: 20px;">
+        <p style="font-size: 16px; font-family: 'Arial'; line-height: 1.7; margin-top: 0;">Dear <%= name %>,</p>
+        <p style="font-size: 16px; font-family: 'Arial'; line-height: 1.7;">We have received a request to log into your JobSeekers account.</p>
+        <p style="font-size: 16px; font-family: 'Arial'; line-height: 1.7;">To complete the verification process, please use the following One-Time Password (OTP):</p>
+        <p style="font-size: 16px; font-family: 'Arial'; line-height: 1.7;"><%= otp %></p>
+        <p style="font-size: 16px; font-family: 'Arial'; line-height: 1.7;">Best regards,</p>
+        <p style="font-size: 16px; font-family: 'Arial'; line-height: 1.7;">The Admin Team</p>
+    </td>
+</tr>
+<%- include('layouts/footer'); -%>
